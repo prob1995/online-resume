@@ -301,7 +301,9 @@ certificate:
   order: 4
   title: Certificates
   items:
-    - name: AWS Certified Cloud Practitioner
+    - name: AWS Certifications
+      description: |
+        + AWS Certified Cloud Practitioner
     - name: Microsoft Certifications
       description: |
         + Azure IoT Developer Specialty (AZ-220)
@@ -320,7 +322,7 @@ award:
   description:
   items:
     - name: 2022 AWS Taiwan Startup Partner Competition
-      awarder: AWS
+      awarder:
       date: 2022
       link: 
       description: |
@@ -426,7 +428,7 @@ language:
   title: Languages
   description:
   items:
-    - idiom: ChineseEnglish
+    - idiom: English
       level: Professional
     - idiom: Chinese
       level: Native
