@@ -1,20 +1,20 @@
 basic:
   name: Polin Liao                      # name
-  title: Developer | Maker         # job title
+  title: Industrial Automation Developer | Maker      # job title
   avatar:
-    show: true                       # show or hide avatar
+    show: False                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
 
 contact:
   # meta
-  location: India | Taiwan # location
+  location: Taiwan | India# location
   email: me@example.com    # email address
   #phone: +86-111-2222-3333 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender:                  # gender or pronoun
   birthday:                # birthday
-  nationality: Taiwan            # nationality
+  nationality:             # nationality
   visa:                    # passport visa
   drivinglicense:          # driving licence
 
@@ -28,7 +28,7 @@ contact:
   threema:                 # userid            | https://threema.id/userid
 
   # programmer
-  github:                  # username          | https://github.com/username
+  github: https://github.com/prob1995                 # username          | https://github.com/username
   gitlab:                  # username          | https://gitlab.com/username
   bitbucket:               # username          | https://bitbucket.com/username
   stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
