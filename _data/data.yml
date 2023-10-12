@@ -1,13 +1,13 @@
 basic:
   name: Polin Liao                      # name
-  title: Industrial Automation Developer | Maker      # job title
+  title: Industrial Automation Developer / Maker      # job title
   avatar:
     show: False                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
 
 contact:
   # meta
-  location: Taiwan | India# location
+  location: Taiwan / India #location
   email: me@example.com    # email address
   #phone: +86-111-2222-3333 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
@@ -133,18 +133,34 @@ project:
       date: 
       description: |
         + __2-in-1 mask detection device__: Integrated with Microsoft Azure and NVIDIA Jetson to enable real-time body temperature and mask detection. Completed in two weeks.  
-          Chinese news: https://news.microsoft.com/zh-tw/cth-ms-ai-mask-temparture-detector/
-          English news: https://ppt.cc/fUDiMx
-        + Second
+          English news: [https://ppt.cc/fUDiMx](https://ppt.cc/fUDiMx)
+          Chinese news: [https://news.microsoft.com/zh-tw/cth-ms-ai-mask-temparture-detector/](https://news.microsoft.com/zh-tw/cth-ms-ai-mask-temparture-detector/)
+
+        + __Defect inspection vision system for factories__: We proposed a factory-friendly, deep learning-based vision tool. 
+        By leveraging the latest models and domain knowledge, we can achieve high accuracy with relatively less training data and a low-latency inference server.
+        
+        + __Population-Based Augmentation__: Contributed a visualization example to check parameter results after training. (https://github.com/arcelien/pba)
 
     - name: In measurements automation
       link:
       tags: 
       date:
       description: |
-        OSS project description...
-        + First
-        + Second
+        + __Electric car power managements circuit board test__: Discuss with client about test plan. Select the 
+        measuring instrument for customer. Using programmable power supply, DMM and oscilloscope to 
+        build an automation test software for the customer via LabVIEW.
+
+        +  __Picoamp test__: For a customer needing to measure 200 pA , I selected a low-noise amplifier and a DMM 
+        to achieve 1 pA accuracy. Measurements were taken in a semiconductor factory for a MEMS component 
+        used in cars, via a GPIB connection.
+
+        +  __Wi-Fi modem test__: Utilized programmable power supplies, function generators, DMMs, oscilloscopes, 
+        and RF testers to evaluate modem functions. Tests included current, voltage, multi-frequency, and Wi-Fi 
+        signal functionality.
+        
+        + _1 Power_ : Created a side project that allows you to monitor your power bank's battery life via your 
+        phone. Used ESP-32's analog input to measure voltage changes and displayed the data on a web server.
+        (Projects and demo video: [https://github.com/prob1995/1power](https://github.com/prob1995/1power))
 
 skill:
   show: false
