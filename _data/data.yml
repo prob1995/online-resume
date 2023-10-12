@@ -3,7 +3,7 @@ basic:
   title: Industrial Automation Developer / Maker      # job title
   avatar:
     show: true                       # show or hide avatar
-    path: /assets/images/profile.png # avatar file path
+    path: /assets/images/1.png # avatar file path
 
 contact:
   # meta
