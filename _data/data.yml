@@ -3,12 +3,12 @@ basic:
   title: Industrial Automation Developer / Maker      # job title
   avatar:
     show: true                       # show or hide avatar
-    path: /assets/images/profile.png # avatar file path
+    path: /assets/images/Slime_Artwork.png # avatar file path
 
 contact:
   # meta
   location: Taiwan / India #location
-  email: prob1995@gmail.com    # email address
+  email: prob1995[at]gmail.com    # email address
   #phone: +86-111-2222-3333 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
 
